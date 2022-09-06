@@ -1,0 +1,31 @@
+.qa{
+    padding:96px 0px 80px;
+    @include phone{
+        padding:64px 0px 40px;
+     }
+    h2{
+        font-size: 48px;
+        font-weight: 700;
+        border-left: 8px solid #9F1213;
+        padding-left: 16px;
+        margin-bottom: 32px;
+        @include phone{
+            font-size: $font-md;
+            margin-bottom: 24px;
+         }
+    }
+    h3{
+        font-size: $font-md; 
+        font-weight: 700;
+    }
+    .q{
+        font-size: $font-m;
+        font-weight: 700;
+    }
+    .a{
+        margin-bottom: 32px;
+        @include phone{
+            margin-bottom: 24px;
+         }
+    }
+}
